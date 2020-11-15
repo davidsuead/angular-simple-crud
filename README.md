@@ -1,3 +1,3 @@
-# angular-person-crud
+# angular-simple-crud
 
-CRUD simples de pessoas em Angular 10 
+Simple CRUD about people using Angular 10
