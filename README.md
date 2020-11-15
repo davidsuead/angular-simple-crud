@@ -1,3 +1,3 @@
 # angular-simple-crud
 
-Simple CRUD about people using Angular 10
+Simple CRUD of people using Angular 10
