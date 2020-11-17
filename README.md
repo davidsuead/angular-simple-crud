@@ -4,10 +4,10 @@ Simple CRUD of people using Angular 10
 
 # Requirements
 
-1.  Instalar NodeJS (versão 12.9.0)
-2.  Instalar Angular (versão 10.2.0)
-2.  IDE (VS Code é muito bom)
-3.  Git (Git Bash com Git For Windows)
+1.  Install NodeJS (12.9.0)
+2.  Install Angular (10.2.0)
+2.  IDE: VSCode is very good :)
+3.  Git For Windows
 
 # Getting Started
 
