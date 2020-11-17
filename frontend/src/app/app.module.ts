@@ -12,13 +12,18 @@ import { NavComponent } from './components/views/nav/nav.component';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatCardModule} from '@angular/material/card';
+import { HomeComponent } from './components/views/home/home.component';
+import { PeopleCrudComponent } from './components/views/people-crud/people-crud.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent,
+    PeopleCrudComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +31,8 @@ import { MatListModule } from '@angular/material/list';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
