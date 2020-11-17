@@ -1,0 +1,41 @@
+<mat-card class="home mat-elevation-z3">
+    <mat-card-title>
+        Atualizar dados da Pessoa
+    </mat-card-title>
+    
+    <form>
+
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="people.name" name="name">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input matInput placeholder="CPF" [(ngModel)]="people.cpf" name="cpf">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input matInput placeholder="E-mail" [(ngModel)]="people.email" name="email">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input matInput placeholder="Data de Nascimento" [(ngModel)]="people.birthdate" name="birthdate">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input matInput placeholder="Telefone" [(ngModel)]="people.phone" name="phone">
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input matInput placeholder="Nome da Mãe" [(ngModel)]="people.mom" name="mom">
+        </mat-form-field>
+        
+    </form>
+    
+    <button mat-raised-button (click)="updatePeople()" color="primary">
+        Salvar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

@@ -24,6 +24,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { PeopleReadComponent } from './components/people/people-read/people-read.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
+import { PeopleUpdateComponent } from './components/people/people-update/people-update.component';
 
 
 @NgModule({
@@ -34,7 +39,9 @@ import { MatInputModule } from '@angular/material/input';
     NavComponent,
     HomeComponent,
     PeopleCrudComponent,
-    PeopleCreateComponent
+    PeopleCreateComponent,
+    PeopleReadComponent,
+    PeopleUpdateComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +56,10 @@ import { MatInputModule } from '@angular/material/input';
     HttpClientModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
