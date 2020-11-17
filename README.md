@@ -24,7 +24,7 @@ $ npm install
 
 $ npm start
 ```
-Após inicializado o json-server no backend, abra outro terminal e execute os comandos abaixona pasta raiz do projeto:
+Após inicializado o json-server no backend, abra outro terminal e execute os comandos abaixo na pasta raiz do projeto:
 
 ```
 $ cd frontend/
