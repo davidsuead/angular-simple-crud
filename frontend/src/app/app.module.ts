@@ -12,9 +12,19 @@ import { NavComponent } from './components/views/nav/nav.component';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
-import { MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HomeComponent } from './components/views/home/home.component';
 import { PeopleCrudComponent } from './components/views/people-crud/people-crud.component';
+import { PeopleCreateComponent } from './components/people/people-create/people-create.component';
+
+import { HttpClientModule } from '@angular/common/http';
+
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +33,8 @@ import { PeopleCrudComponent } from './components/views/people-crud/people-crud.
     FooterComponent,
     NavComponent,
     HomeComponent,
-    PeopleCrudComponent
+    PeopleCrudComponent,
+    PeopleCreateComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +43,13 @@ import { PeopleCrudComponent } from './components/views/people-crud/people-crud.
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

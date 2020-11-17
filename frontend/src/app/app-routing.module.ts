@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './components/views/home/home.component';
 import { PeopleCrudComponent } from './components/views/people-crud/people-crud.component';
+import { PeopleCreateComponent } from './components/people/people-create/people-create.component';
 
 const routes: Routes = [
   {
@@ -12,7 +13,11 @@ const routes: Routes = [
   {
     path:"people",
     component: PeopleCrudComponent
-  }
+  },
+  {
+    path:"people/create",
+    component: PeopleCreateComponent
+  },
 ];
 
 @NgModule({
