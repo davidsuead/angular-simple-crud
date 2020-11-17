@@ -8,11 +8,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .msg-success {
-    background-color: #28a745;
+    background-color: #388E3C;
     color: #fff
 }
 
 .msg-error {
-    background-color: #d15252;
+    background-color: #922B21;
     color: #fff
+}
+
+.msg-success .mat-simple-snackbar-action, .msg-error .mat-simple-snackbar-action{
+    color: #212121;
 }

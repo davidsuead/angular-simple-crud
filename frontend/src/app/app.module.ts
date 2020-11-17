@@ -29,6 +29,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { PeopleUpdateComponent } from './components/people/people-update/people-update.component';
+import { PeopleDeleteComponent } from './components/people/people-delete/people-delete.component';
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { PeopleUpdateComponent } from './components/people/people-update/people-
     PeopleCrudComponent,
     PeopleCreateComponent,
     PeopleReadComponent,
-    PeopleUpdateComponent
+    PeopleUpdateComponent,
+    PeopleDeleteComponent
   ],
   imports: [
     BrowserModule,
