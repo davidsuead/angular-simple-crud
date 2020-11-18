@@ -31,5 +31,5 @@ $ cd frontend/
 
 $ npm install
 
-$ np start
+$ npm start
 ```
